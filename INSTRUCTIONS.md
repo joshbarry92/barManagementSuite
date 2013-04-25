@@ -12,7 +12,9 @@ Install PHPMyAdmin, refer to these instructions (link has been removed from fusi
 Install Arduino, refer to these instructions http://arduino.cc/en/Guide/HomePage 
 
 If you want to run the Pi without a screen attached (like I did on the most part), also look at these:
+
 Use Putty to SSH into your Pi, refer to these instructions http://elinux.org/RPi_A_Method_for_ssh_blind_login 
+
 Install VNCServer, refer to these instructions http://elinux.org/RPi_Wheezy_VNC 
 
 
@@ -33,11 +35,15 @@ Run the temperature script and RFID script on the Pi (if working remotely run th
 Access the PHP file from the Pi’s browser or another computer/device on the same network e.g. http://192.168.0.14/keg/beer.php if your IP address is 192.168.0.14 or if you are clever you can change your hostname of the Pi and access it like http://raspberrypi/keg/beer.php (but you will need to refer to separate instructions on changing your hostname).  You should see the latest recorded temperature and all the beer info.  Swipe a tag across the RFID reader, wait for the beep and watch the stock level adjust when the page is refreshed.
 
 Tweaks you can play with:
-•  Change the sound played when a tag is read.  I like the idea of a Star Trek computer sound or as that is too geeky for a BBQ with friends, maybe Homer Simpson?
-•	Change the sound to be different for each beer
-•	Play an error sound if a tag is read that is not in the database
-•	Assign a tag to an increase in stock level for a standard crate of beer e.g. 12 * 330ml to simplify updating for new purchases
-•	Get the browser to refresh the page every minute or x minutes depending on big your party is.  
+a) Change the sound played when a tag is read.  I like the idea of a Star Trek computer sound or as that is too geeky for a BBQ with friends, maybe Homer Simpson?
+
+b) Change the sound to be different for each beer
+
+c) Play an error sound if a tag is read that is not in the database
+
+d) Assign a tag to an increase in stock level for a standard crate of beer e.g. 12 * 330ml to simplify updating for new purchases
+
+e) Get the browser to refresh the page every minute or x minutes depending on big your party is.  
 
 Future Development Ideas:
 •	Depending on the Tag ID’s, maybe implement joining the site code and ID together as a unique number instead
