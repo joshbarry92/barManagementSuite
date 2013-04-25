@@ -14,7 +14,7 @@
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pwd = 'raspberry';
-$database = 'thermometer';
+$database = 'beer';
 $table = 'readings';
 if (!mysql_connect($db_host, $db_user, $db_pwd))    
 	die("Can't connect to database");
@@ -41,7 +41,7 @@ mysql_free_result($result);
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pwd = 'raspberry';
-$database = 'db421103625';
+$database = 'beer';
 $table = 'Beer';
 if (!mysql_connect($db_host, $db_user, $db_pwd))    
 	die("Can't connect to database");
