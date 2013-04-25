@@ -10,7 +10,7 @@ while True:
 	tempreading = read_temp()
 	temperature = tempreading
 	try:
-		con=MySQLdb.connect(user="root",passwd="raspberry",db="thermometer")
+		con=MySQLdb.connect(user="root",passwd="raspberry",db="beer")
 		cur = con.cursor()
 		sql_string = "INSERT INTO readings (date_time, temperature) VALUES ('%s', '%s')" % (now,temperature)
 		cur.execute(sql_string)
