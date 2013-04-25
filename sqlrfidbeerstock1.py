@@ -9,7 +9,7 @@ ser = serial.Serial('/dev/ttyACM0', 115200)
 
 def insert_Coronita():
 	now = datetime.datetime.now()
-	con=MySQLdb.connect(user="root",passwd="raspberry",db="db421103625")
+	con=MySQLdb.connect(user="root",passwd="raspberry",db="beer")
 	cur = con.cursor()
 	sql_string = "INSERT INTO BeerStock (Beer, Quantity, Date, Reason) VALUES ('%s', '%s', '%s', '%s')" % ("Coronita","-275",now,"RFID")
 	cur.execute(sql_string)
@@ -17,7 +17,7 @@ def insert_Coronita():
 	
 def insert_SoleStar():
 	now = datetime.datetime.now()
-	con=MySQLdb.connect(user="root",passwd="raspberry",db="db421103625")
+	con=MySQLdb.connect(user="root",passwd="raspberry",db="beer")
 	cur = con.cursor()
 	sql_string = "INSERT INTO BeerStock (Beer, Quantity, Date, Reason) VALUES ('%s', '%s', '%s', '%s')" % ("Winter Zest","-330",now,"RFID")
 	cur.execute(sql_string)
