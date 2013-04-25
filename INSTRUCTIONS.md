@@ -20,7 +20,7 @@ Install VNCServer, refer to these instructions http://elinux.org/RPi_Wheezy_VNC
 
 
 
-Using PHPMyAdmin or the MySQL Command Line Interface, setup the database information by loading the sql scripts.  This will setup a new database and the data tables for you as well as some dummy data.  Refer to the instructions provided by each application on how to do this.  Once loaded, you can adjust the Beer information and BeerStock information if you wish, or just leave it as is for testing.
+Using PHPMyAdmin or the MySQL Command Line Interface, setup the database "beer" and load the information by loading the sql scripts.  This will setup a new database and the data tables for you as well as some dummy data.  Refer to the instructions provided by each application on how to do this.  Once loaded, you can adjust the Beer information and BeerStock information if you wish, or just leave it as is for testing.
 
 
 Use the fritzing diagram here https://github.com/anddav87/SendTempWarn/blob/master/Temp%20Sensor_bb.png  to setup your DS18B20 temperature sensor on the breadboard, and attach it to the Pi’s GPIO ports.  You could test this setup first separately using this code https://github.com/anddav87/SendTempWarn 
