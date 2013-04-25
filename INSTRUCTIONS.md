@@ -1,7 +1,7 @@
 Instructions
 ------------------
 
-Given time I will try and include a comprehensive screen-shotted tutorial, but for now here are some basic instructions.  Please email me if you want to be updated when the tutorial becomes available.  
+Given time I will try and include a comprehensive screen-shotted tutorial, but for now here are some basic instructions.  Please email me if you want to be updated when the tutorial becomes available.  andy@hymaswood.co.uk You can also check out some pictures on my website http://www.hymaswood.co.uk
 
 I have not followed these instructions through as I already have the stuff setup on my Pi, but this should work reasonably well.  Please let me know if you come across any errors or missing steps.
 
