@@ -5,8 +5,10 @@ Given time I will try and include a comprehensive screen-shotted tutorial, but f
 
 I have not followed these instructions through as I already have the stuff setup on my Pi, but this should work reasonably well.  Please let me know if you come across any errors or missing steps.
 
-Install LAMP, refer to these instructions: http://elinux.org/RPi_A_Simple_Wheezy_LAMP_install 
+Install LAMP, refer to these instructions: http://elinux.org/RPi_A_Simple_Wheezy_LAMP_install
+
 Install PHPMyAdmin, refer to these instructions (link has been removed from fusionstrike.com a new one will follow)
+
 Install Arduino, refer to these instructions http://arduino.cc/en/Guide/HomePage 
 
 If you want to run the Pi without a screen attached (like I did on the most part), also look at these:
