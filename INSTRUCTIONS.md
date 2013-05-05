@@ -35,7 +35,7 @@ Install pyserial from here http://pyserial.sourceforge.net/
 Change the sqlrfidbeerstock1.py script to reference the tag numbers you have to a couple of the beers.
 
 
-Load the keg folder into the /var/www folder of your Pi (can do this by FTP, as long as you are logged in as root or use the sudo command to copy from your /home/pi folder assuming the structure is this /home/pi/keg you would use this command sudo cp –r /home/pi/keg /var/www/keg)
+Load the keg and kegerface folders into the /var/www folder of your Pi (can do this by FTP, as long as you are logged in as root or use the sudo command to copy from your /home/pi folder assuming the structure is this /home/pi/keg you would use this command sudo cp –r /home/pi/keg /var/www/keg and then repeat for the kegerface folder)
 
 
 Run the temperature script and RFID script on the Pi (if working remotely run these from Putty or if you want to be able to disconnect from the Pi and leave it running, try using VNC.  I hear lots of good things about using “screen” but haven’t tried it yet)
@@ -59,7 +59,7 @@ e) Get the browser to refresh the page every minute or x minutes depending on bi
 
 Future Development Ideas:
 
-a) Depending on the Tag ID’s, maybe implement joining the site code and ID together as a unique number instead
+a) Depending on the Tag IDs, maybe implement joining the site code and ID together as a unique number instead
 
 b) Use RFID stickers rather than tags, to actually stick to the bottles (could be expensive!)
 
@@ -67,7 +67,7 @@ c) Store the tag information in a database table rather than the python script a
 
 d) Change the background or make a lower res one that is quicker to load
 
-e)Add a purple SRM for Fruit Ciders
+e)Add a purple SRM for Fruit Ciders (Done 05/05/13)
 
 
 Credits
