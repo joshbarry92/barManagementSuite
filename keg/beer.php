@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="beer.css">
 </head>
 <body>
-<h1><p align='center'><img src='beerlabel.png' </img><br> ::::Hymas Wood Kegerface::::</h1></p>
+<h1><p align='center'><img src='BeerLabel.png' </img><br> ::::Hymas Wood Kegerface::::</h1></p>
 <?php 
 $db_host = 'localhost';
 $db_user = 'root';
