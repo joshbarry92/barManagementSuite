@@ -1,5 +1,6 @@
 -- 
 -- Table structure for table `Beer`
+-- 11/9 added in an image field to hold picture of label
 -- 
 
 CREATE TABLE `Beer` (
@@ -9,7 +10,8 @@ CREATE TABLE `Beer` (
   `ABV` varchar(5) COLLATE latin1_german2_ci DEFAULT NULL,
   `Hops` double DEFAULT NULL,
   `SRM` double DEFAULT NULL,
-  `Live` double DEFAULT NULL
+  `Live` double DEFAULT NULL,
+  `Img` varchar(255) COLLATE latin1_german2_ci DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_german2_ci;
 
 -- 
