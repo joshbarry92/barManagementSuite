@@ -16,8 +16,8 @@
 	
 <?php 
 $db_host = 'localhost';
-$db_user = 'root';
-$db_pwd = 'raspberry';
+$db_user = 'beer_reader';
+$db_pwd = 'beer_reader';
 $database = 'beer';
 $table = 'Beer';
 if (!mysql_connect($db_host, $db_user, $db_pwd))    
