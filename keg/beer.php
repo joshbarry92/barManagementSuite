@@ -1,40 +1,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php $title = "Barry's Bar" ?>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>::::Hymas Wood Beer Stock::::</title>
+<title><?php $title ?></title>
 <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
 <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="beer.css">
 </head>
 <body>
-<h1><p align='center'><img src='BeerLabel.png' </img><br> ::::Hymas Wood Kegerface::::</h1></p>
-<?php 
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pwd = 'raspberry';
-$database = 'beer';
-$table = 'readings';
-if (!mysql_connect($db_host, $db_user, $db_pwd))    
-	die("Can't connect to database");
-if (!mysql_select_db($database))    
-	die("Can't select database");
+<h1><p align='center'><img src='BeerLabel.png' </img><br> <?php $title ?> </h1></p>
 
-// sending query
-$result = mysql_query("SELECT * FROM readings order by ID desc limit 1
-");
-if (!$result) {    
-	die("Query to show fields from table failed");
-}
-$fields_num = mysql_num_fields($result);
-
-echo "<h2><p align='center'>Bar Temperature: " . mysql_result($result,$j,'temperature') . "&deg C</h2></p>";
-
-
-
-mysql_free_result($result);
-?>
 
 	
 <?php 
