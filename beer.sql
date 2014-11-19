@@ -4,6 +4,7 @@
 -- 
 
 CREATE TABLE `Beer` (
+  `UUID` int(20) NOT NULL AUTO_INCREMENT, 
   `Beer` varchar(255) COLLATE latin1_german2_ci DEFAULT NULL,
   `Brewery` varchar(255) COLLATE latin1_german2_ci DEFAULT NULL,
   `Style` varchar(255) COLLATE latin1_german2_ci DEFAULT NULL,
@@ -12,6 +13,7 @@ CREATE TABLE `Beer` (
   `SRM` double DEFAULT NULL,
   `Live` double DEFAULT NULL,
   `Img` varchar(255) COLLATE latin1_german2_ci DEFAULT NULL
+  PRIMARY KEY (UUID)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_german2_ci;
 
 -- 
