@@ -12,9 +12,9 @@ CREATE TABLE `Beer` (
   `Hops` double DEFAULT NULL,
   `SRM` double DEFAULT NULL,
   `Live` double DEFAULT NULL,
-  `Img` varchar(255) COLLATE latin1_german2_ci DEFAULT NULL
+  `Img` varchar(255) DEFAULT NULL,
   PRIMARY KEY (UUID)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_german2_ci;
+) ENGINE=MyISAM;
 
 -- 
 -- Dumping data for table `Beer`
