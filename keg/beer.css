@@ -116,3 +116,9 @@ tfoot tr
 img.aligncenter {
 	margin: 0px auto;
 }
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+  }
